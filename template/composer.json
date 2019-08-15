@@ -1,0 +1,28 @@
+{
+    "name": "vendorname/packagename",
+    "description": "Vendorname packagename package",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Jibao Mansaray",
+            "email": "jibaomanaray@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+    },
+    "require-dev": {
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Vendorname\\Packagename\\Providers\\VendornamePackagenameServiceProvider"
+            ]
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Vendorname\\Packagename\\": "src/"
+        }
+    }
+}

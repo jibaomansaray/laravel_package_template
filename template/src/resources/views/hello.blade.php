@@ -1,0 +1,1 @@
+<h1>Hello from Vendorname Packagename. Version: {{config('vendornamepackagename.version')}}</h1>
