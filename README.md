@@ -1,1 +1,1 @@
-# laravel_template
+# Laravel Package template
