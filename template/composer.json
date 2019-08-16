@@ -2,12 +2,7 @@
     "name": "vendorname/packagename",
     "description": "Vendorname packagename package",
     "type": "library",
-    "authors": [
-        {
-            "name": "Jibao Mansaray",
-            "email": "jibaomanaray@gmail.com"
-        }
-    ],
+    "authors": [],
     "minimum-stability": "dev",
     "require": {
     },
