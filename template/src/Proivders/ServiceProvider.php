@@ -24,8 +24,8 @@ class VendornamePackagenameServiceProvider extends ServiceProvider
 
         // publish
         $this->publishes([
-            $this->getPath('resources/lang') => resource_path('lang/kvendorname/packagename'),
-            $this->getPath('resources/views') => resource_path('views/kvendorname/packagename')
+            $this->getPath('resources/lang') => resource_path('lang/vendorname/packagename'),
+            $this->getPath('resources/views') => resource_path('views/vendorname/packagename')
         ]);
 
         $this->publishes([
