@@ -29,7 +29,7 @@ class VendornamePackagenameServiceProvider extends ServiceProvider
         ]);
 
         $this->publishes([
-            $this->getPath('public') => public_path('vendorname/packagename')
+            $this->getPath('public') => public_path('vendornamepackagename')
         ],'public');
 
         // other
