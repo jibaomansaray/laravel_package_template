@@ -35,7 +35,7 @@ class VendornamePackagenameServiceProvider extends ServiceProvider
         // other
         if($this->app->runningInConsole()){
             $this->commands([
-                FooCommand::class
+                VendornamePackagenameCommand::class
             ]);
         }
 
