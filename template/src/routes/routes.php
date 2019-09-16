@@ -2,9 +2,13 @@
 
 use Illuminate\Support\Facades\Route;
 
-Route::get('vendornamepackagename','Vendorname\Packagename\Controllers\HelloController@indexAction');
+Route::group(['middleware' => ['web']], function () {
 
-// Add your routes before the following route
+   // Add your web  routes here
+   Route::get('vendornamepackagename','Vendorname\Packagename\Controllers\HelloController@indexAction');
+
+});
+
 
 
 if (config('env') != 'production') {
