@@ -3,7 +3,7 @@
 namespace Vendorname\Packagename\Providers;
 
 use Illuminate\Support\ServiceProvider;
-use Vendorname\Packagename\Command\FooCommand;
+use Vendorname\Packagename\Command\VendornamePackagenameCommand;
 
 class VendornamePackagenameServiceProvider extends ServiceProvider
 {
