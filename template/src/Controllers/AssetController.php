@@ -1,6 +1,7 @@
 <?php
 
 namespace Vendorname\Packagename\Controllers;
+use Illuminate\Http\Testing\MimeType;
 
 class AssetController
 {
@@ -9,7 +10,10 @@ class AssetController
         $path = dirname(__DIR__) . '/public/' . $path;
 
         if (file_exists($path)) {
-            return response()->file($path);
+            $type = MimeType::from($path);
+            return response()->file($path, [
+                'Content-type' => $type
+                ]);
         }
         return response('', '404');
     }
